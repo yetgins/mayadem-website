@@ -2,7 +2,7 @@ import React from "react";
 import GameItem from "./GameItem";
 import { Wrapper, Heading, Description, Container } from "./Games.styles";
 
-const Games = ({ games, heading, desc }) => {
+const Games = ({ games,onShowDetail, heading, desc }) => {
   return (
     <Container>
       <br />
@@ -10,7 +10,7 @@ const Games = ({ games, heading, desc }) => {
       <Description>{desc}</Description>
       <Wrapper>
         {games.map((game) => (
-          <GameItem key={game.id} game={game} />
+          <GameItem key={game.id} game={game} onShowDetail={onShowDetail} />
         ))}
       </Wrapper>
       <br />

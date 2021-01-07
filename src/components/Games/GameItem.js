@@ -1,8 +1,10 @@
 import React from 'react'
 
-const GameItem = ({game}) => {
+const GameItem = ({game,onShowDetail}) => {
     return (
-        <div>
+        <div onClick={() => {
+            onShowDetail && onShowDetail(game);
+          }}>
             <img src={game.image} alt=''/>
         </div>
     )
