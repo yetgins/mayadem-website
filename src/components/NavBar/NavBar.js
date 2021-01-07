@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import Dropdown from "./Dropdown/Dropdown";
 import {
   NavBarContainer,
   NavBarLogo,
@@ -11,31 +10,14 @@ import {
   NavMenuActive,
   NavItem,
   NavLinks,
-  CaretDown,
 } from "./NavBar.styles";
 
 const NavBar = () => {
   const [click, setClick] = useState(false);
-  const [dropdown, setDropdown] = useState(false);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
-
-  const onMouseEnter = () => {
-    if (window.innerWidth < 960) {
-      setDropdown(true);
-    } else {
-      setDropdown(true);
-    }
-  };
-
-  const onMouseLeave = () => {
-    if (window.innerWidth < 960) {
-      setDropdown(false);
-    } else {
-      setDropdown(false);
-    }
-  };
+  
   return (
     <NavBarContainer>
       <NavLink to="/">
@@ -52,11 +34,15 @@ const NavBar = () => {
               Ana Sayfa
             </NavLinks>
           </NavItem>
-          <NavItem onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
-            <NavLinks to="/oyunlar" onClick={closeMobileMenu}>
-              Oyunlar <CaretDown />
+          <NavItem>
+            <NavLinks to="/littleones" onClick={closeMobileMenu}>
+              LittleOnes Oyunları
             </NavLinks>
-            {dropdown && <Dropdown />}
+          </NavItem>
+          <NavItem>
+            <NavLinks to="/trtcocuk" onClick={closeMobileMenu}>
+              Trt Çocuk Oyunları
+            </NavLinks>
           </NavItem>
           <NavItem>
             <NavLinks to="/hakkimizda" onClick={closeMobileMenu}>
@@ -76,11 +62,15 @@ const NavBar = () => {
               Ana Sayfa
             </NavLinks>
           </NavItem>
-          <NavItem onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
-            <NavLinks to="/oyunlar" onClick={closeMobileMenu}>
-              Oyunlar <CaretDown />
+          <NavItem>
+            <NavLinks to="/littleones" onClick={closeMobileMenu}>
+              LittleOnes
             </NavLinks>
-            {dropdown && <Dropdown />}
+          </NavItem>
+          <NavItem>
+            <NavLinks to="/trtcocuk" onClick={closeMobileMenu}>
+              Trt Çocuk
+            </NavLinks>
           </NavItem>
           <NavItem>
             <NavLinks to="/hakkimizda" onClick={closeMobileMenu}>
