@@ -1,22 +1,37 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
-import Footer from "./components/Footer/Footer";
+import AboutUsPage from "./screens/AboutUsPage";
+import ContactPage from "./screens/ContactPage";
+import GamesPage from "./screens/GamesPage";
+import HomePage from "./screens/HomePage";
+import LittleOnesPage from "./screens/LittleOnesPage";
+import PolicyPage from "./screens/PolicyPage";
+import TrtCocukPage from "./screens/TrtCocukPage";
 
 function App() {
   return (
     <Router>
       <Switch>
         <Route exact path="/">
-          <h1>HOME</h1>
-          <Footer />
+          <HomePage />
+        </Route>
+        <Route path="/littleones">
+          <LittleOnesPage />
+        </Route>
+        <Route path="/trtcocuk">
+          <TrtCocukPage />
         </Route>
         <Route path="/iletisim">
-          <h1>İLETİŞİM</h1>
-          <Footer />
+          <ContactPage />
         </Route>
         <Route path="/gizlilik">
-          <h1>GİZLİLİK POLİTİKASI</h1>
-          <Footer />
+          <PolicyPage />
+        </Route>
+        <Route path="/hakkimizda">
+          <AboutUsPage />
+        </Route>
+        <Route path="/oyunlar">
+          <GamesPage />
         </Route>
       </Switch>
     </Router>
