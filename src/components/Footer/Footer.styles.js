@@ -1,6 +1,12 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
+export const FooterImg =styled.div`
+  margin-top:30px;
+  margin-bottom:30px;
+  text-align:center;
+`;
+
 export const FooterContainer = styled.footer`
   background-color: cornflowerblue;
 `;
@@ -53,4 +59,11 @@ export const SocialIcons = styled.div`
 export const SocialIconLink = styled.a`
   color: #fff;
   font-size: 24px;
+`;
+
+export const FooterCopyRight=styled.div`
+  text-align:center;
+  margin-top:20px;
+  margin-bottom:20px;
+  font-size:14px;
 `;
