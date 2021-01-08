@@ -30,10 +30,10 @@ function App() {
         <Route path="/hakkimizda">
           <AboutUsPage />
         </Route> 
-        <Route path='/littleone/:gameId'>
+        <Route path='/littleones-oyunları/:gameId'>
           <GameDetailPage />
         </Route>
-        <Route path='/trt/:gameId'>
+        <Route path='/trt-cocuk-oyunları/:gameId'>
           <GameDetailPage />
         </Route>
       </Switch>

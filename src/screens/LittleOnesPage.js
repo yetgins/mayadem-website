@@ -10,7 +10,7 @@ import { useHistory } from 'react-router-dom';
 const LittleOnesPage = () => {
   const history = useHistory();
   const handleShowDetailClick = (game) => {
-    history.push(`/littleone/${game.id}`, { game });
+    history.push(`/littleones-oyunları/${game.id}`, { game });
   };
   return (
     <div>

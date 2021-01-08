@@ -10,7 +10,7 @@ import { useHistory } from 'react-router-dom';
 const TrtCocukPage = () => {
   const history = useHistory();
   const handleShowDetailClick = (game) => {
-    history.push(`/trt/${game.id}`, { game });
+    history.push(`/trt-cocuk-oyunları/${game.id}`, { game });
   };
   return (
     <div>
