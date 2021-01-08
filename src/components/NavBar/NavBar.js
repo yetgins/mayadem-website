@@ -36,7 +36,7 @@ const NavBar = () => {
           </NavItem>
           <NavItem>
             <NavLinks to="/littleones" onClick={closeMobileMenu}>
-              LittleOnes Oyunları
+              Little Ones Oyunları
             </NavLinks>
           </NavItem>
           <NavItem>
@@ -64,7 +64,7 @@ const NavBar = () => {
           </NavItem>
           <NavItem>
             <NavLinks to="/littleones" onClick={closeMobileMenu}>
-              LittleOnes
+              Little Ones
             </NavLinks>
           </NavItem>
           <NavItem>

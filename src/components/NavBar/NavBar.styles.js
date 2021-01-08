@@ -68,6 +68,7 @@ export const NavMenuActive = styled.ul`
     height:90vh;
     top:60px;
     position:absolute;
+    align-items:center;
     
     background:beige;
     left: 0;
@@ -90,7 +91,7 @@ export const NavItem = styled.li`
 export const NavLinks = styled(Link)`
   color: black;
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 1rem 1rem;
 
   :hover {
     background-color: #1888ff;
@@ -105,7 +106,8 @@ export const NavLinks = styled(Link)`
 
       :hover {
         background-color: #1888ff;
-        border-radius: 0;
+        width:100%;
+        border-radius: 4000px;
       }
     }
   }

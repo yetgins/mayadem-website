@@ -41,6 +41,7 @@ const Policy = () => {
             <div>Bu gizlilik politikası ile ilgili herhangi bir sorunuz olursa <i><a href='mailto:iletisim@mayadem.com'>iletisim@mayadem.com</a></i> adresinden bize ulaşabilirsiniz.</div>    
              <br/>
              <br/>   
+             <br/>
 
         </PolicyContainer>
     )
