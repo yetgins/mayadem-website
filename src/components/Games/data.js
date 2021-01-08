@@ -42,7 +42,8 @@ export const littleones=[
         desc3:'',
         applink:'https://apps.apple.com/tr/app/littleones-shape-sorter-3/id1104867648?l=tr',
         playlink:'https://play.google.com/store/apps/details?id=com.mayadem.littleonesadv',
-        image: image1
+        image: image1,
+        image2: 'https://www.mayadem.com/wp-content/uploads/2016/05/IPAD_TR_1.png'
     },
     {
         id:2,
@@ -52,7 +53,8 @@ export const littleones=[
         desc3:'',
         applink:'',
         playlink:'',
-        image: image2
+        image: image2,
+        image2:''
     },
     {
         id:3,
@@ -62,7 +64,8 @@ export const littleones=[
         desc3:'',
         applink:'https://apps.apple.com/tr/app/harfleri-ogren-sesleri-ve/id1053097983?l=tr',
         playlink:'https://play.google.com/store/apps/details?id=com.mayadem.harfleriogren',
-        image: image3
+        image: image3,
+        image2:'https://www.mayadem.com/wp-content/uploads/2012/07/mayadem_harfleri_ogren_slider_1.png'
     },
     {
         id:4,
@@ -72,7 +75,8 @@ export const littleones=[
         desc3:'',
         applink:'https://apps.apple.com/tr/app/little-ones-mind-renk-sekil/id1038822374?l=tr',
         playlink:'https://play.google.com/store/apps/details?id=com.mayadem.sg1',
-        image: image4
+        image: image4,
+        image2:'https://www.mayadem.com/wp-content/uploads/2015/12/mayadem_littleones_mind_slider_1.png'
     },
     {
         id:5,
@@ -82,7 +86,8 @@ export const littleones=[
         desc3:'',
         applink:'',
         playlink:'',
-        image: image5
+        image: image5,
+        image2:''
     }
 
 ];
@@ -96,7 +101,8 @@ export const trtcocuk=[
         desc3:'Animasyon Stüdyosu ile yaratıcılığını konuştur, hayal gücü dünyanı zenginleştir ve hikâyeni sevdiklerinle paylaş!',
         applink:'https://apps.apple.com/tr/app/trt-animasyon-studyosu/id1127252027?l=tr',
         playlink:'https://play.google.com/store/apps/details?id=com.trtcocuk.animasyonstudyosu',
-        image:image6
+        image:image6,
+        image2:'https://www.mayadem.com/wp-content/uploads/2016/04/AS_1-2.png'
     },
     {
         id:7,
@@ -106,7 +112,8 @@ export const trtcocuk=[
         desc3:'Bilgi Adası’nda resimli, resimsiz, 2 veya 4 seçenekli farklı soru tipleri ile, edebiyattan tarihe, biyolojiden matematiğe, birçok farklı alandan eğlenceli sorular var.',
         applink:'https://apps.apple.com/us/app/trt-bilgi-adas%C4%B1/id1324500343?ign-mpt=uo%3D4',
         playlink:'https://play.google.com/store/apps/details?id=com.trtcocuk.bilgiadasi&hl=tr',
-        image:image7
+        image:image7,
+        image2:'https://www.mayadem.com/wp-content/uploads/2012/07/bilgi-adasi-tablet.png'
     },
     {
         id:8,
@@ -116,7 +123,8 @@ export const trtcocuk=[
         desc3:'Hemen Bulmaca Kulesi’ni indir, macerayı keşfet!',
         applink:'https://apps.apple.com/tr/app/trt-bulmaca-kulesi/id1127252297?l=tr',
         playlink:'https://play.google.com/store/apps/details?id=com.trtcocuk.bulmacakulesi',
-        image:image8
+        image:image8,
+        image2:'https://www.mayadem.com/wp-content/uploads/2016/04/BK_1-2.png'
     },
     {
         id:9,
@@ -126,7 +134,8 @@ export const trtcocuk=[
         desc3:'Hadi bu heyecanlı yardımlaşma oyununda sende onlara katıl ve beraber eğlenirken öğrenin.',
         applink:'https://apps.apple.com/tr/app/trt-can%C4%B1m-karde%C5%9Fim/id1198878605?l=tr',
         playlink:'https://play.google.com/store/apps/details?id=com.trtcocuk.canimkardesim&hl=tr',
-        image:image9
+        image:image9,
+        image2:'https://www.mayadem.com/wp-content/uploads/2017/10/Artboard-1-copy-4-5.png'
     },
     {
         id:10,
@@ -136,7 +145,8 @@ export const trtcocuk=[
         desc3:'Resim ve çizim yapma yeteneğini geliştir, eğlencenin ve öğrenmenin tadını doyasıya çıkar.Haydi, dedektifler işbaşına!',
         applink:'https://apps.apple.com/tr/app/trt-ege-ile-gaga-bulmaca/id1162679326',
         playlink:'https://play.google.com/store/apps/details?id=com.trtcocuk.egeilegagabulmaca',
-        image:image10
+        image:image10,
+        image2:'https://www.mayadem.com/wp-content/uploads/2016/11/IPAD_1.png'
     },
     {
         id:11,
@@ -146,7 +156,8 @@ export const trtcocuk=[
         desc3:'Yapman gereken çok kolay. Çeşitli geometrik şekillerden oluşan parçaları bir araya getir ve anlamlı bir şekil ortaya çıkar!',
         applink:'https://apps.apple.com/tr/app/trt-ege-ile-gaga-tangram/id1239416430?l=tr',
         playlink:'https://play.google.com/store/apps/details?id=com.trtcocuk.egeilegagatangram&hl=tr',
-        image:image11
+        image:image11,
+        image2:'https://www.mayadem.com/wp-content/uploads/2017/10/Artboard-1-copy-5-6.png'
     },
     {
         id:12,
@@ -156,7 +167,8 @@ export const trtcocuk=[
         desc3:'',
         applink:'',
         playlink:'',
-        image:image12
+        image:image12,
+        image2:''
     },
     {
         id:13,
@@ -166,7 +178,8 @@ export const trtcocuk=[
         desc3:'TRT Çocuk’un sevilen çizgi dizisi Elif’in Düşleri oyunu ile, hem Elif’e hem de seni bekleyen müşterilere yardım et!',
         applink:'https://apps.apple.com/tr/app/trt-elifin-dusleri/id1127243451?l=tr',
         playlink:'https://play.google.com/store/apps/details?id=com.trtcocuk.elifindusleri',
-        image:image13
+        image:image13,
+        image2:'https://www.mayadem.com/wp-content/uploads/2016/04/ED_1-2.png'
     },
     {
         id:14,
@@ -176,7 +189,8 @@ export const trtcocuk=[
         desc3:'Uzayın derinliklerine doğru yapacağımız bu yolculukta gök cisimlerinden uzay araçlarına, birbirinden ilginç bilgiler öğreneceğiz.',
         applink:'https://apps.apple.com/us/app/trt-hayri-uzayda/id1279793089?ign-mpt=uo%3D4',
         playlink:'https://play.google.com/store/apps/details?id=com.trtcocuk.hayriuzayda',
-        image:image14
+        image:image14,
+        image2:'https://www.mayadem.com/wp-content/uploads/2017/10/Artboard-1-copy-5-10.png'
     },
     {
         id:15,
@@ -186,7 +200,8 @@ export const trtcocuk=[
         desc3:'Bazı bölümlerimizde sevilen TRT Çocuk kahramanları da yer alıyor. Haydi hemen indirin, çocuğunuzla birlikte eğlenirken Amazon Ormanları’ndan Serengeti Stepleri’ne, sevimli çiftliğimizden denizin altına kadar, dünyanın her yerindeki ilginç ve sevimli hayvanları tanıyın! TRT’nin diğer oyunlarından çocuğunuza uygun olanları indirerek, çocuğunuzun gelişimine destek olabilirsiniz.',
         applink:'https://apps.apple.com/tr/app/trt-hayvanlar%C4%B1-ke%C5%9Ffediyoruz/id1312738008?l=tr',
         playlink:'https://play.google.com/store/apps/details?id=com.trtcocuk.hayvanlarikesfet',
-        image:image15
+        image:image15,
+        image2:'https://www.mayadem.com/wp-content/uploads/2012/07/hayvanlar%C4%B1-kesfediyoruz-tablet3.png'
     },
     {
         id:16,
@@ -196,7 +211,8 @@ export const trtcocuk=[
         desc3:'',
         applink:'',
         playlink:'',
-        image:image16
+        image:image16,
+        image2:''
     },
     {
         id:17,
@@ -206,7 +222,8 @@ export const trtcocuk=[
         desc3:'',
         applink:'https://apps.apple.com/tr/app/trt-ibi/id1073534279?l=tr',
         playlink:'https://play.google.com/store/apps/details?id=com.trtcocuk.ibi&hl=tr',
-        image:image17
+        image:image17,
+        image2:'https://www.mayadem.com/wp-content/uploads/2016/04/IBI_2.png'
     },
     {
         id:18,
@@ -216,7 +233,8 @@ export const trtcocuk=[
         desc3:'',
         applink:'https://apps.apple.com/tr/app/trt-kare/id1198456631?l=tr',
         playlink:'https://play.google.com/store/apps/details?id=com.trtcocuk.kare&hl=tr',
-        image:image18
+        image:image18,
+        image2:'https://www.mayadem.com/wp-content/uploads/2016/04/Artboard-1-copy-5.png'
     },
     {
         id:19,
@@ -226,7 +244,8 @@ export const trtcocuk=[
         desc3:'Nostalji ve modern kültürün harmanlanmasıyla hazırlanmış bu platform oyun, sizlere yepyeni bir deneyim yaşatacak.',
         applink:'https://apps.apple.com/tr/app/trt-kelo%C4%9Flan/id1198880938?l=tr',
         playlink:'https://apps.apple.com/tr/app/trt-kelo%C4%9Flan/id1198880938?l=tr',
-        image:image19
+        image:image19,
+        image2:'https://www.mayadem.com/wp-content/uploads/2017/10/Artboard-1-copy-5-3.png'
     },
     {
         id:20,
@@ -236,7 +255,8 @@ export const trtcocuk=[
         desc3:'Benzer onlarca mini görevleri tamamla, farklı özellikler kazan. Oyun evimizi keşfederken, düzenli ve tasarruflu olmayı da öğren.',
         applink:'https://apps.apple.com/tr/app/trt-kolay-gelsin/id1265720732?l=tr',
         playlink:'https://play.google.com/store/apps/details?id=com.trtcocuk.kolaygelsin&hl=tr',
-        image:image20
+        image:image20,
+        image2:'https://www.mayadem.com/wp-content/uploads/2017/10/Artboard-1-15.png'
     },
     {
         id:21,
@@ -246,7 +266,8 @@ export const trtcocuk=[
         desc3:'Köstebanya’ya gitmeyi amaçlayan bu macera dolu yolculukta hem eğleneceksin hem de zekânı geliştireceksin. Nasıl mı? Haydi, indir gör!',
         applink:'https://apps.apple.com/tr/app/trt-k%C3%B6stebekgiller/id1198880925?l=tr',
         playlink:'https://play.google.com/store/apps/details?id=com.trtcocuk.kostebekgiller&hl=tr',
-        image:image21
+        image:image21,
+        image2:'https://www.mayadem.com/wp-content/uploads/2016/04/Artboard-1-1.png'
     },
     {
         id:22,
@@ -256,7 +277,8 @@ export const trtcocuk=[
         desc3:'',
         applink:'https://apps.apple.com/tr/app/trt-kuzucuk/id1073534283?l=tr',
         playlink:'https://play.google.com/store/apps/details?id=com.trtcocuk.kuzucuk&hl=tr',
-        image:image22
+        image:image22,
+        image2:'https://www.mayadem.com/wp-content/uploads/2016/04/KUZUCUK_3.png'
     },
     {
         id:23,
@@ -266,7 +288,8 @@ export const trtcocuk=[
         desc3:'',
         applink:'',
         playlink:'',
-        image:image23
+        image:image23,
+        image2:''
     },
     {
         id:24,
@@ -276,7 +299,8 @@ export const trtcocuk=[
         desc3:'',
         applink:'https://apps.apple.com/tr/app/trt-maysa-ve-bulut/id1073533378?l=tr',
         playlink:'https://play.google.com/store/apps/details?id=com.trtcocuk.maysa&hl=tr',
-        image:image24
+        image:image24,
+        image2:'https://www.mayadem.com/wp-content/uploads/2016/04/MAYSA_VE_BULUT_1.png'
     },
     {
         id:25,
@@ -286,7 +310,8 @@ export const trtcocuk=[
         desc3:'',
         applink:'',
         playlink:'',
-        image:image25
+        image:image25,
+        image2:''
     },
     {
         id:26,
@@ -296,7 +321,8 @@ export const trtcocuk=[
         desc3:'Aile modu ile uygulama video izleme sürelerini kısıtlayabilir, çocuklarınızın sadece istediğiniz içeriklere erişmesini sağlayabilirsiniz.',
         applink:'https://apps.apple.com/tr/app/trt-%C3%A7ocuk-mobil/id1111174922?l=tr',
         playlink:'https://play.google.com/store/apps/details?id=com.trtcocuk.videoapp&hl=tr',
-        image:image26
+        image:image26,
+        image2:'https://www.mayadem.com/wp-content/uploads/2017/10/Artboard-1-10.png'
     },
     {
         id:27,
@@ -306,7 +332,8 @@ export const trtcocuk=[
         desc3:'Orman Doktoru ile hem ilk yardım bilgilerini pekiştir, hem sevimli dostlarımıza yardım et!',
         applink:'https://apps.apple.com/tr/app/trt-orman-doktoru/id1127251792?l=tr',
         playlink:'https://play.google.com/store/apps/details?id=com.trtcocuk.ormandoktoru',
-        image:image27
+        image:image27,
+        image2:'https://www.mayadem.com/wp-content/uploads/2016/04/OD_1.png'
     },
     {
         id:28,
@@ -316,7 +343,8 @@ export const trtcocuk=[
         desc3:'Mutlu Oyuncak Dükkanı seninle…',
         applink:'https://apps.apple.com/tr/app/trt-mutlu-oyuncak-dukkan/id1127252178?l=tr',
         playlink:'https://play.google.com/store/apps/details?id=com.trtcocuk.mutluoyuncakdukkani&hl=tr',
-        image:image28
+        image:image28,
+        image2:'https://www.mayadem.com/wp-content/uploads/2016/04/MOD_1-3.png'
     },
     {
         id:29,
@@ -326,7 +354,8 @@ export const trtcocuk=[
         desc3:'Hey mahalle, bu oyunu sakın kaçırma!',
         applink:'https://apps.apple.com/tr/app/trt-rafadan-tayfa-tornet/id1098211175?l=tr',
         playlink:'https://play.google.com/store/apps/details?id=com.trtcocuk.rafadantayfa&hl=tr',
-        image:image29
+        image:image29,
+        image2:'https://www.mayadem.com/wp-content/uploads/2016/04/Unknown-4.png'
     },
     {
         id:30,
@@ -336,7 +365,8 @@ export const trtcocuk=[
         desc3:'',
         applink:'',
         playlink:'',
-        image:image30
+        image:image30,
+        image2:''
     },
     {
         id:31,
@@ -346,7 +376,8 @@ export const trtcocuk=[
         desc3:'Su altındaki gizem dolu yaşamı görmek için haydi hemen keşfe başla!',
         applink:'https://apps.apple.com/tr/app/trt-rafadan-tayfa-tornet/id1098211175?l=tr',
         playlink:'https://play.google.com/store/apps/details?id=com.trtcocuk.rafadantayfa&hl=tr',
-        image:image31
+        image:image31,
+        image2:'https://www.mayadem.com/wp-content/uploads/2017/10/Artboard-1-copy-5-8.png'
     },
     {
         id:32,
@@ -356,7 +387,8 @@ export const trtcocuk=[
         desc3:'Çocukların, eski bilim adamları, tarihi mekan ve terimler, Türk masal kahramanları, unutulan çocuk oyunları ve meslekler gibi farklı alanlarla ile ilgili kelimeleri bulmaları gerekiyor.',
         applink:'https://apps.apple.com/tr/app/trt-tel-ali/id1073534632?l=tr',
         playlink:'https://play.google.com/store/apps/details?id=com.trtcocuk.telali&hl=tr',
-        image:image32
+        image:image32,
+        image2:'https://www.mayadem.com/wp-content/uploads/2016/04/TEL_ALI_1.png'
     },
     {
         id:33,
@@ -366,7 +398,8 @@ export const trtcocuk=[
         desc3:'',
         applink:'',
         playlink:'',
-        image:image33
+        image:image33,
+        image2:''
     },
     {
         id:34,
@@ -376,6 +409,7 @@ export const trtcocuk=[
         desc3:'Zorlu Yarış’ta, gelişmiş modifiye seçenekleriyle, hem sıkılmadan oynayacaksın hem de doyasıya eğleneceksin. Bunun yanı sıra, fiziksel, bilişsel ve zihinsel kazanımlarla da eğlenirken öğrenecek, oyunun tadını çıkaracaksın.',
         applink:'https://apps.apple.com/tr/app/trt-zorlu-yar%C4%B1%C5%9F/id1241856683?l=tr',
         playlink:'https://play.google.com/store/apps/details?id=com.trtcocuk.zorluyaris&hl=tr',
-        image:image34
+        image:image34,
+        image2:'https://www.mayadem.com/wp-content/uploads/2017/10/Artboard-1-copy-3-7.png'
     },
 ];

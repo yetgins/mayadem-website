@@ -1,12 +1,13 @@
 import React from 'react'
+import { ItemWrapper } from './Games.styles';
 
 const GameItem = ({game,onShowDetail}) => {
     return (
-        <div onClick={() => {
+        <ItemWrapper onClick={() => {
             onShowDetail && onShowDetail(game);
           }}>
             <img src={game.image} alt=''/>
-        </div>
+        </ItemWrapper>
     )
 }
 

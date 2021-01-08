@@ -19,3 +19,9 @@ export const Description=styled.h3`
     margin-bottom:40px;
     color:darkgoldenrod;
 `;
+
+export const ItemWrapper=styled.div`
+  margin-bottom: 20px;
+  cursor: pointer;
+  outline: none;
+`;

@@ -35,7 +35,7 @@ const GameDetail = () => {
           />
         </GameLink>
       </GameLinks>
-      <GameImg src={state.game.image} alt="" />
+      <GameImg src={state.game.image2} alt="" />
     </GameContainer>
   );
 };
