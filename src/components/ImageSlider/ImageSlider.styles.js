@@ -2,8 +2,7 @@ import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from 'react-icons/fa';
 import styled from 'styled-components';
 
 export const Slider = styled.section`
-  margin-top:80px;
-     position: relative;
+  position: relative;
   height: 100vh;
   display: flex;
   justify-content: center;

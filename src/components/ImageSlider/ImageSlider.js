@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { SliderData } from "./SliderData";
 import {
   Image,
   LeftArrow,
@@ -28,7 +27,7 @@ const ImageSlider = ({ slides }) => {
     <Slider>
       <LeftArrow onClick={prevSlide} />
       <RightArrow onClick={nextSlide} />
-      {SliderData.map((slide, index) => {
+      {slides.map((slide, index) => {
         return (
           <SlideActive key={index}>
             {index === current && <Image src={slide.image} alt="" />}
