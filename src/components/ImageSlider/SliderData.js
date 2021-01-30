@@ -36,7 +36,7 @@ export const SliderData = [
   ];
 
   export const SliderTrtCocuk=[
-   
+    
     {
       image:
       'https://pbs.twimg.com/media/DVCSLFxWsAAFAEs.jpg'
